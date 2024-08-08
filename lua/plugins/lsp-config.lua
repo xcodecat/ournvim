@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = {"lua_ls", "tsserver", "kotlin_language_server", "ltex", "arduino_language_server"}
+                ensure_installed = {"lua_ls", "tsserver", "ltex", "clangd", "gopls", "pyright", "dockerls", "docker_compose_language_service", "html"}
             })
         end
     },
